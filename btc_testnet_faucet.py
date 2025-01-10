@@ -35,7 +35,7 @@ for wallet in wallets_and_proxies:
         # 构建表单数据，不需要提取隐藏表单令牌
         data = {
             'address': btc_address,
-            'submit_form': '97a736dabd1a937975269c86344860f231c1bfa2'  # 从你的HTML表单中提取的值
+            'submit_form': '97a736dabd1a937975269c86344860f231c1bfa2'  
         }
 
         # 提交表单
